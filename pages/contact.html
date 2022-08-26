@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main CSS Project</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="contact-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">Happy Succulents</a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-banner2">
+            <h1>Contact</h1>
+        </section>
+        <section class="signup">
+            <div class="form-container">
+                <form action="action_page.php" style="border:1px solid #ccc">
+                    <div class="form-content">
+                      <h2>Sign Up</h2>
+                      <p>Please fill in this form to receive the newsletter.</p>
+                      <hr>
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                      </label>
+                      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                      <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>Copyright © 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
