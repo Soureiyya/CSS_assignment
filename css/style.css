@@ -495,6 +495,7 @@ hr {
 
 .form-content a{
     color: #3882F6;
+    text-decoration: none;
 }
 
 .clearfix::after {
